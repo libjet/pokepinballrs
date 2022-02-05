@@ -3,7 +3,10 @@
 
 // Place all external variable declarations in this file
 
-extern struct {u16 unk0[5]; u16 unkA[5];} gUnknown_086A6B14;
+extern struct {
+	u16 unk0[5];
+	u16 unkA[5];
+} gUnknown_086A6B14;
 extern s8 gUnknown_02002850;
 extern struct ToneData gUnknown_08532D6C[];
 extern struct ToneData gUnknown_08533360[];
@@ -11,7 +14,10 @@ extern struct ToneData gUnknown_08533960[];
 extern struct ToneData gUnknown_08533F60[];
 extern u16 gUnknown_08527D22[];
 extern u16 gUnknown_086BB910[][4];
-extern struct {u8 unk0; s16 unk2;} gUnknown_086BB9B4[];
+extern struct {
+	u8 unk0;
+	s16 unk2;
+} gUnknown_086BB9B4[];
 extern u16 gUnknown_08527D66[];
 extern u8 gUnknown_02031AF0[][10];
 extern u8 gUnknown_08527ED6[][10];
@@ -188,4 +194,4 @@ extern struct Coord16 gUnknown_086A9694[];
 extern struct Coord16 gUnknown_086A96AC[];
 extern struct Coord16 gUnknown_086A96C0[];
 
-#endif  // GUARD_VARIABLES_H
+#endif // GUARD_VARIABLES_H

@@ -1,4 +1,4 @@
-    .macro ds name
-    .global \name
-    \name\():
-    .endm
+	.macro ds name
+	.global \name
+	\name\():
+	.endm

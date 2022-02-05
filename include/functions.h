@@ -821,7 +821,6 @@ extern void sub_1F5C(void);
 
 // asm/start.s
 
-
 // asm/titlescreen.s
 
 //extern ? sub_11640();
@@ -829,4 +828,4 @@ extern void sub_1175C(void);
 extern void sub_11968(void);
 extern void sub_11B74(void);
 
-#endif  // GUARD_FUNCTIONS_H
+#endif // GUARD_FUNCTIONS_H
